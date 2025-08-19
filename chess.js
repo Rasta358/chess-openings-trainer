@@ -1,0 +1,1 @@
+// chess.js local copy placeholder

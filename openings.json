@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "name": "Exemple d'ouvertures",
+    "version": 1
+  },
+  "trees": [
+    {
+      "pos": "start|w",
+      "label": "Départ",
+      "good": {
+        "e2e4": {
+          "pos": "...",
+          "good": {
+            "e7e5": {
+              "pos": "...",
+              "label": "Ouvertures e4 e5",
+              "good": {
+                "g1f3": {
+                  "pos": "...",
+                  "good": {
+                    "b8c6": {
+                      "pos": "...",
+                      "good": {
+                        "f1b5": {
+                          "pos": "...",
+                          "label": "Espagnole"
+                        },
+                        "f1c4": {
+                          "pos": "...",
+                          "label": "Italienne"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "c7c5": {
+              "pos": "...",
+              "label": "Sicilienne",
+              "good": {
+                "g1f3": {
+                  "pos": "...",
+                  "good": {
+                    "d7d6": {
+                      "pos": "...",
+                      "label": "Najdorf"
+                    },
+                    "e7e6": {
+                      "pos": "...",
+                      "label": "Scheveningen"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "mistakes": {
+            "f2f3": {
+              "note": "Faible défense du roi"
+            },
+            "a2a3": {
+              "note": "Coup inutile"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

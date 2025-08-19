@@ -1,0 +1,27 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
+  text-align: center;
+}
+#board-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+#controls {
+  margin: 15px;
+}
+button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+#status {
+  margin-top: 20px;
+  font-size: 18px;
+}

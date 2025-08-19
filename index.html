@@ -1,0 +1,27 @@
+
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Chess Openings Trainer</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="libs/chessboard-element.js"></script>
+  <script src="libs/chess.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <h1>Chess Openings Trainer</h1>
+  <div id="board-container">
+    <chess-board id="board" draggable-pieces></chess-board>
+  </div>
+  <div id="controls">
+    <button id="undoBtn">↩️ Annuler</button>
+    <button id="flipBtn">🔄 Flip</button>
+    <button id="modeBtn">Mode : Libre</button>
+    <button id="exportBtn">💾 Export</button>
+    <input type="file" id="importInput" accept="application/json">
+  </div>
+  <div id="status"></div>
+</body>
+</html>
